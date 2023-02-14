@@ -1,58 +1,41 @@
-
-/* Global settings */
-*{
-    padding: 0;
-    margin: 0;
-}
+/* Global Settings */
 body{
-    font-family: sans-serif;
-    background: grey;
-    color: white;
-}
-/* search bar */
-.round {
-    border-radius: 15px;
-    border: 1px #000 solid;
-    padding: 5px 5px;
-    left: 0;
-}
-.corner{
-    padding: 5px 5px;
-    border-radius: 3px;
-    border: 1px #000 solid;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: grey;
 }
 
-/* Header */
-nav{
-    display: flex;
-    background-color: #212529;;
-    justify-content: space-around;
-    padding: 20px 0;
-}
-nav .logo a{
-    color: white;
-    text-decoration: none;
-    font-weight: bolder;
+
+
+/* Navigation Bar */
+
+.nav-item{
+    margin-left: 50px;
+    /* padding-left: 100px; */
     font-size: 20px
 }
-nav ul{
+.navbar-brand{
+    padding-top: 30px;
+   padding-bottom: 30px;
+}
+form{
     display: flex;
-    justify-content: space-between;
-    list-style: none;
-    width: 40%
+    padding-left: 50px;
+    /* padding-right: 50px; */
 }
-nav ul li a{
-    text-decoration: none;
-    color: grey;
+.dropdown ul{
+    z-index:-1;
+    background-color: darkgrey;
+    color: white;
 }
-nav ul li a:hover{
-    color: darkgrey;
+.navbar-collapse{
+    margin-left: -50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
-/* footer */
-.footer{
+footer{
     display: flex;
     width: 100%;
-    padding: 20px 0;
+    padding: 5px 0;
     justify-content: center;
     align-items: center;
     background-color: #212529;
